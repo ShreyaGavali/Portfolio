@@ -1,0 +1,39 @@
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display:none;
+    }
+    #hamburger-nav{
+        display: flex;
+    }
+    .main-body{
+        flex-direction:column;
+        margin-top: 2rem;
+    }
+    .image{
+        margin-left:2rem;
+        margin-bottom: 1rem;
+    }
+    .frontend-backend{
+        flex-direction: column;
+        margin-top: 1.5rem;
+        gap:1rem;
+    }
+    .pl{
+        padding: 0.9rem;
+    }
+    .frontend , .backend{
+        height: 14rem;
+        width: 20rem;
+    }
+    .project{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+    .s4-h{
+        margin-top: 20rem;
+    }
+    .contact-me{
+        flex-direction: column;
+        border:none;
+    }
+}

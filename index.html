@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquires.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section id="home">
+    <nav id="desktop-nav">
+        <div class="logo">Shreya Gavali</div>
+        <div class="nav-links">
+            <ul><a href="#home">About</a></ul>
+            <ul><a href="#section-2">Experience</a></ul>
+            <ul><a href="#section-3">Projects</a></ul>
+            <ul><a href="#section4">Contact</a></ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Shreya Gavali</div>
+        <div class="hamburger-menue">
+            <div class="hamburger-icon" onclick="opeanNav()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div id="menue-links">
+                <ul><a href="#home" onclick="closeNav()">About</a></ul>
+                <ul><a href="#section-2" onclick="closeNav()">Experience</a></ul>
+                <ul><a href="#section-3" onclick="closeNav()">Projects</a></ul>
+                <ul><a href="#section4" onclick="closeNav()">Contact</a></ul>
+            </div>
+        </div>
+    </nav>
+    <div class="main-body">
+        <div class="image">
+            <img src="my_image_w.jpg">
+        </div>
+        <div class="about">
+            <p>Hello, i'm</p>
+            <p>Shreya Gavali</p>
+            <p>Web Developer</p>
+            <a href="Shreya_Gavali_Resume.pdf" target="_blank"><button>Resume</button></a>
+            <a href="#section4"><button>Contact</button></a><br>
+            <a href="https://www.linkedin.com/in/shreya-gavali-58412221b/" target="_blank"><img src="linkedin.png" class="logo-linkedin"></a>
+            <a href="https://github.com/ShreyaGavali" target="_blank"><img src="github-logo.png" class="git-logo"></a>
+        </div>
+    </div>
+    </section>
+
+    <section id="section-2">
+        <div class="s2-h">
+            <p class="explore">Explore My</p>
+            <p class="exp">Experience</p>
+        </div>
+        <div class="frontend-backend">
+            <div class="frontend">
+                <p class="fd">Frontend Development</p>
+                <div class="f1">
+                    <div class="pl">
+                        <img src="checkmark.png">
+                        <div>
+                            <h4>HTML</h4>
+                            <P>Experienced</P>
+                        </div>
+                    </div>
+                    <div class="pl">
+                        <img src="checkmark.png">
+                        <div>
+                            <h4>CSS</h4>
+                            <P>Experienced</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="f2">
+                    <div class="pl">
+                        <img src="checkmark.png">
+                        <div>
+                            <h4>JavaScript</h4>
+                            <P>Intermediate</P>
+                        </div>
+                    </div>
+                    <div class="pl">
+                        <img src="checkmark.png">
+                        <div>
+                            <h4>React JS</h4>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="backend">
+                <p class="bd">Backend Development</p>
+                <div class="f1">
+                    <div class="pl">
+                        <img src="checkmark.png">
+                        <div>
+                            <h4>Node JS</h4>
+                            <P>Intermediate</P>
+                        </div>
+                    </div>
+                    <div class="pl">
+                        <img src="checkmark.png">
+                        <div>
+                            <h4>Express JS</h4>
+                            <P>Intermediate</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="f2">
+                    <div class="pl">
+                        <img src="checkmark.png">
+                        <div>
+                            <h4>My SQL</h4>
+                            <P>Intermediate</P>
+                        </div>
+                    </div>
+                    <div class="pl">
+                        <img src="checkmark.png">
+                        <div>
+                            <h4>Mongo DB</h4>
+                            <P>Intermediate</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="section-3">
+        <div class="s3-h">
+            <p class="bro">Browse My Recent</p>
+            <p class="pr">Projects</p>
+        </div>
+        <div class="project">
+            <div class="p1">
+                <img src="netflix.png">
+                <h3 class="nc">Netflix Clone</h3>
+                <a href="https://shreyagavali.github.io/Netflix_Landing_Page/" target="_blank"><button>Github</button></a>
+            </div>
+            <div class="p2">
+                <img src="tic tak toe.png">
+                <h3 class="ttt">Tic Tak Toe Game</h3>
+                <a href="https://shreyagavali.github.io/Tic-Tak-Toe/" target="_blank"><button>Github</button></a>
+            </div>
+        </div>
+    </section>
+    <section id="section4">
+        <div class="s4-h">
+            <p class="get">Get In Touch</p>
+            <p class="contact">Contact Me</p>
+        </div>
+        <div class="contact-me">
+            <div class="con">
+                <img src="email.png">
+                <p><a href="mailto:shreyagavali2002@gmail.com"></a>shreyagavali2002@gmail.com</p>
+            </div>
+            <div class="con">
+                <img src="linkedin.png">
+                <a href="https://www.linkedin.com/in/shreya-gavali-58412221b/" target="_blank"><p>Linkedin</p></a>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
